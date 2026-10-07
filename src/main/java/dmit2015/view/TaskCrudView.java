@@ -20,7 +20,7 @@ import java.util.List;
  * This Jakarta Faces backing bean class contains the data and event handlers
  * to perform CRUD operations using a PrimeFaces DataTable configured to perform CRUD.
  */
-@Named("currentTaskCrudView")
+@Named("jakartaPersistenceTaskService") //was moved from taskjpaservice
 @ViewScoped // create this object for one HTTP request and keep in memory if the next is for the same page
 public class TaskCrudView implements Serializable {
 

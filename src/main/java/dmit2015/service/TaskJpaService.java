@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@Named("jakartaPersistenceTaskService")
+
 @ApplicationScoped
 public class TaskJpaService implements TaskService {
 
