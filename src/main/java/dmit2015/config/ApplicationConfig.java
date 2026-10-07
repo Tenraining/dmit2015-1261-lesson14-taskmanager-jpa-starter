@@ -20,7 +20,7 @@ import jakarta.enterprise.context.ApplicationScoped;
                 name = "java:app/datasources/H2DatabaseDS",
                 className = "org.h2.jdbcx.JdbcDataSource",
                 // url="jdbc:h2:file:~/jdk/databases/h2/DMIT201CourseDB;",
-                url = "jdbc:h2:file:./data/lesson14-taskmanager-jpa-db",
+                url = "jdbc:h2:file:./data/lesson14-taskmanager-jpa-db", //
                 user = "user2015",
                 password = "Password2015"),
 
